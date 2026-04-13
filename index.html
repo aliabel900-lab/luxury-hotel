@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Stay Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Luxury Stay Hotel</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Luxury Stay Hotel</h2>
+            <p>Your perfect getaway in the heart of the city.</p>
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <!-- ROOMS SECTION -->
+    <section id="rooms" class="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-list">
+            <!-- Room examples -->
+            <div class="room">
+                <img src="images/room1.jpg" alt="Deluxe Room">
+                <h3>Deluxe Room</h3>
+                <p><strong>Luxury and comfort in our Deluxe Room with king-size bed and city view.</strong></p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+            <div class="room">
+                <img src="images/room3.jpg" alt="Suite">
+                <h3>Suite</h3>
+                <p><strong>Ultimate luxury with a separate living area and VIP lounge access.</strong></p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+
+            <div class="room">
+                <img src="images/room4.jpg" alt="Standard Room">
+                <h3>Standard Room</h3>
+                <p><strong>Comfortable and affordable with all essential amenities.</strong></p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <div class="service">Free WiFi</div>
+            <div class="service">24/7 Room Service</div>
+            <div class="service">Spa & Wellness</div>
+            <div class="service">Fitness Center</div>
+            <div class="service">Swimming Pool</div>
+            <div class="service">Airport Transfer</div>
+        </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section id="booking" class="booking">
+        <h2>Book Your Stay</h2>
+        <form id="bookingForm" action="#" method="POST">
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" name="check-in" required>
+
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" name="check-out" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+
+            <label for="room">Room Type:</label>
+            <select id="room" name="room" required>
+                <option value="">Select Room</option>
+                <option value="standard">Standard Room</option>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="suite">Suite</option>
+            </select>
+
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: aliabel900@gmail.com</p>
+        <p>Phone: 0706332477</p>
+        <p>Address: 1272836 Luxury St, Cityville, Kenya</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Luxury Stay Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
