@@ -63,7 +63,7 @@ header::after {
 .hero {
     position: relative;
     height: 70vh;
-    background: url("images/room2.jpg") no-repeat center/cover;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
